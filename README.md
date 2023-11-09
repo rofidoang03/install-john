@@ -9,5 +9,6 @@ $ git clone https://github.com/openwall/john.git
 $ cd john/src
 $ ./configure && make -s clean && make -sj4
 $ export PATH=$PATH:/usr/share/john/run
-$ alias john=/usr/share/john/run/john
+$ echo 'alias john="/usr/share/john/run/john"' >> ~/.bashrc
+$ source ~/.bashrc
 ```
