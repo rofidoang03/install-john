@@ -8,7 +8,7 @@ $ cd /usr/share
 $ git clone https://github.com/openwall/john.git
 $ cd john/src
 $ ./configure && make -s clean && make -sj4
-$ export PATH=$PATH:/usr/share/john/run
+$ echo 'export PATH=$PATH:/usr/share/john/run' >> ~/.bashrc
 $ echo 'alias john="/usr/share/john/run/john"' >> ~/.bashrc
 $ source ~/.bashrc
 ```
